@@ -1,5 +1,5 @@
 {
-  "name": "sbrbot/PHPDAO",
+  "name": "sbrbot/phpdao",
   "description": "PHP Data Access Objects (DAO) Layer Builder for MySQL",
   "keywords": ["Data Access Object","MySQL","DAO"],
   "version": "v5.0.0",
