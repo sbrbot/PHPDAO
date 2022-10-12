@@ -111,7 +111,7 @@ try
       $class=$tvobject[$tvname];
 
       $daocontent='<?php'.PHP_EOL.PHP_EOL
-                  . "require 'DAO.php';".PHP_EOL.PHP_EOL
+                  . "require_once 'DAO.php';".PHP_EOL.PHP_EOL
                   . '/**'.PHP_EOL
                   . " * Class {$class}DAO".PHP_EOL;
       if($table['TABLE_COMMENT']) $daocontent.=' * COMMENT: '.$table['TABLE_COMMENT'].PHP_EOL;
